@@ -4,12 +4,14 @@ body {
 }
 
 img {
-    width: 400px;
+    /* width: 500px; */
+    width: 100%;
 }
 
 .cards {
     margin-top: 50px;
     display: grid;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -18,7 +20,7 @@ img {
     transform: translateY(-5px);
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1600px) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
